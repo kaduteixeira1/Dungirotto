@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body{
+    font-size: 13px;
+    background-image: url("IMG_2911.jpg");
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    overflow-x: hidden;
+}
+    #orb{
+        display: flex;
+        float: right;
+        margin-top: -750px;
+        margin-right: 15%;
+    }
+    #vida{
+        display: flex;
+        float: right;
+        margin-top: -800px;
+        margin-right: 13.5%;
+    }   
+    pre{
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+    }
+    h2{
+        font-size: 30px;
+       
+    }
+    #caixaDeTexto {
+        scale: 80%;
+        display: flex;
+        margin-top: -38.5%;
+        margin-left: 6.5%;
+        font-size: bold;
+        width: 400px;
+        height: 74px;
+        background-color: #f7f7f7;
+        color: #000;
+        font-size: 24px;
+        padding: 20px;
+        overflow: hidden;
+        -webkit-box-shadow: 4px 2px 34px 9px rgba(255, 255, 255, 0.73);
+        -moz-box-shadow: 4px 2px 34px 9px rgba(255, 255, 255, 0.73);
+        box-shadow: 4px 2px 34px 9px rgba(255, 255, 255, 0.73);
+        border-radius: 16px;
+      }
+
+      #mapa{
+        position: relative;
+        left: 40px;
+      }
+      
+      .npc{
+        scale: 30%;
+        display: flex;
+        margin-top: -1100px;
+        margin-left: -380px;
+        animation: imagem 9.5s ease-in;
+        animation-fill-mode: forwards;
+      
+      }
+  

@@ -1,0 +1,58 @@
+body {
+  background-image: url("IMG_2911.jpg");
+  font-size: 30px;
+  margin-top: 130px;
+}
+
+#fase1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#caixaDeTexto {
+  scale: 90%;
+  display: flex;
+  margin-top: -33%;
+  margin-left: 9.5%;
+  font-family: "Roboto Mono", monospace;
+  width: 400px;
+  height: 80px;
+  background-color: #f7f7f7;
+  color: #000;
+  font-size: 24px;
+  padding: 20px;
+  overflow: hidden;
+  -webkit-box-shadow: 4px 2px 34px 9px rgba(255, 255, 255, 0.73);
+  -moz-box-shadow: 4px 2px 34px 9px rgba(255, 255, 255, 0.73);
+  box-shadow: 4px 2px 34px 9px rgba(255, 255, 255, 0.73);
+  border-radius: 16px;
+}
+
+img{
+  scale: 30%;
+  display: flex;
+  margin-top: -380px;
+  margin-left: -350px;
+  animation: fadeOut 10s easeOutText;
+  animation-fill-mode: forwards;
+
+}
+
+#dica{
+  color: white;
+  display: flex;
+  margin-left: 12%;
+  margin-top: -35%;
+  animation: fadeOut 4s easeOutText;
+  animation-fill-mode: forwards;
+  font-size: 23px;
+}
+@keyframes easeOutText {
+  from  { 
+    opacity: 1;
+  }
+  to { 
+    opacity: 0;
+  }
+}

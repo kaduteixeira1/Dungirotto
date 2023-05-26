@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(12, 12, 12);
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 16.5%;
+    font-size: 150px;
+    font-weight: bold;
+    animation: changeColor;    
+}
+
+.btn{
+    color: white;
+    position: absolute;
+    display: flex;
+    margin-left: 45% ;
+    font-size: 35px;
+    font-weight: bolder;
+    background-color: transparent;
+    padding: 0.25em 1em;
+    border-radius:0.25em;
+    text-shadow: 0 0 0.25em;
+    box-shadow: 0 0 1em 0 white, 0 0 0.25em 0 white ;
+    transition: 0.5s;
+}
+.btn:hover{
+    box-shadow: 0 0 1em 0 rgb(82, 20, 139), 0 0 0.25em 0 rgb(82, 20, 139) ;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.btn a:hover{
+    position: relative;
+    color: rgb(82, 20, 139);
+}
+
+

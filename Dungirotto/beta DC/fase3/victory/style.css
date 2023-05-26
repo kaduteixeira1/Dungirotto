@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(12, 12, 12);
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    overflow-x: hidden;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 16.5%;
+    font-size: 150px;
+    font-weight: bold;   
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    margin-left: -3%;
+}
+
+#btn a{
+    position: relative;
+    background: #27282c;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+#btn a:hover{
+    letter-spacing: 0.25em;
+    color: rgb(0, 175, 9);
+    box-shadow: 0 0 42px rgb(4, 133, 10);
+    border: 2px solid rgb(3, 122, 9);
+}
+#btn a::before{
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #27282c ;
+}
+#btn a span{
+    position: relative;
+    z-index: 1;
+}
+#btn a i {
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+#btn a i::before{
+    content: '';
+    position: absolute;
+    top: -3.5px ;
+    left: 80%;
+    width: 10px;
+    height: 5px;
+    border: 2px solid white;    
+    background: white;
+    transform: translateX(-50%);
+    transition: 0.5s ;
+}
+#btn a:hover i::before{
+    width: 20px;
+    left: 20%;
+    background: rgb(2, 90, 6);
+    border: 2px solid rgb(2, 90, 6);
+}
+#btn a i::after{
+    content: '';
+    position: absolute;
+    bottom: -3.5px;
+    left: 20%;
+    width: 10px;
+    height: 5px;
+    border: 2px solid white;    
+    background: white;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+#btn a:hover i::after{
+    width: 20px;
+    left: 80%;
+    border: 2px solid rgb(2, 90, 6);
+    background: rgb(2, 90, 6);
+}

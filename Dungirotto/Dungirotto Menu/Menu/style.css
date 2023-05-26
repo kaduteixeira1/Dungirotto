@@ -1,0 +1,103 @@
+body{ 
+    background-image: url("bg/16279.jpg"); 
+    background-repeat: no-repeat;
+    background-size:cover ;
+    
+}
+.menu{
+    margin-top: 160px;
+}
+.header1 {
+    font-family: 'Cinzel', serif;
+    color: #F7F7F7;
+    margin-left: 20%;
+    margin-top: 1600px;
+    font-size: 90px;
+    font-weight: 900px;
+    color: #FFFFFF;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    color: #FFFFFF;
+}
+.header {
+    font-family: 'Cinzel', serif;
+    color: #992121;
+   display: flex;
+   justify-content: center;
+    margin-top: 65px;
+    font-size: 90px;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #660000, 0 2px 0 #660000, 0 3px 0 #660000, 0 4px 0 #660000, 0 5px 0 #660000, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+.play{
+    font-family: 'Cinzel', serif;
+    font-size: 55px;
+    font-weight: 600px;
+    font-weight: bold;
+    color: #F7F7F7;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    color: #FFFFFF;
+    margin-top: 4%;
+    margin-left: 46%;
+}
+.play a{
+    color: #F7F7F7;
+    text-decoration: none;
+}
+.play a:hover{
+    color: #690c0c;
+    text-shadow: 0 1px 0 #5e0303, 0 2px 0 #4d0202, 0 3px 0 #4d0303, 0 4px 0 #520202, 0 5px 0 #410404, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    text-decoration: none;
+    transition: 0.3s ease    ;
+}
+.tutorial{
+    font-family: 'Cinzel', serif;
+    font-size: 55px;
+    font-weight: 600px;
+    font-weight: bold;
+    color: #F7F7F7;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    color: #FFFFFF;
+    margin-top: 2%;
+    margin-left: 43%;
+}
+.tutorial a{
+    color: #F7F7F7;
+    text-decoration: none;
+}
+.tutorial a:hover{
+    color: #690c0c;
+    text-shadow: 0 1px 0 #5e0303, 0 2px 0 #4d0202, 0 3px 0 #4d0303, 0 4px 0 #520202, 0 5px 0 #410404, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    text-decoration: none;
+    transition: 0.3s ease ;
+}
+.sobre{
+    font-family: 'Cinzel', serif;
+    font-size: 55px;
+    font-weight: 600px;
+    font-weight: bold;
+    color: #F7F7F7;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    color: #FFFFFF;
+    margin-top: 2%;
+    margin-left: 45.5%;
+}
+.sobre a{
+    color: #F7F7F7;
+    text-decoration: none;
+}
+.sobre a:hover{
+    color: #690c0c;
+    text-shadow: 0 1px 0 #5e0303, 0 2px 0 #4d0202, 0 3px 0 #4d0303, 0 4px 0 #520202, 0 5px 0 #410404, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.desenv{
+    display: flex;
+    justify-content: center;
+    color: #F7F7F7; 
+    margin: 14%;
+    margin-top: 190px;
+}   
+.header{
+    animation: ani 3s linear infinite;
+}

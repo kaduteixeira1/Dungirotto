@@ -1,0 +1,73 @@
+  body {
+    background-image:url(bg/bg\ borrado.jpg) ;
+    color: #d8d8d8;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+  }
+  
+  .about-me {
+    width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 2px solid #fff;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  
+  .developer {
+    margin-top: 50px;
+  }
+  
+  img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 15px;
+  }
+  
+  button {
+    margin-top: 50px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #fff;
+    color: #301c1c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #d8d8d8;
+    color: #301c1c;
+    transform: scale(1.05);
+  }
+  a{
+    text-decoration: none;
+    color: #f7f7f7;
+    transition: 0.5s;
+  }
+  a:hover {
+    font-size: 21px;
+    color: #790f0f;
+    
+  }
+  
